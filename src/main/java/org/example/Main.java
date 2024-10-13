@@ -10,7 +10,7 @@ public class Main {
         int[] arr={1,2,3,4,5};
         int target=5;
 
-        /**
+        /*
          * by conventional way
          */
         for (int i =0; i <arr.length-1; i++) {
@@ -21,7 +21,7 @@ public class Main {
             }
         }
 
-        /**
+        /*
          * by Optimized way
          */
 
@@ -37,5 +37,11 @@ public class Main {
             // Store current element with its index
             map.put(arr[i], i);
         }
+
+        /*
+         * Output will be:
+         * 1) 0 and 3
+         * 2) 1 and 2
+         */
     }
 }
